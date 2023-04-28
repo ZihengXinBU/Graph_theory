@@ -9,7 +9,7 @@ G = nx.Graph()
 # read the CSV file
 #with open('AIDS_A.txt', 'r') as f:
 #with open('input.csv', 'r') as f:
-with open('top_50.txt', 'r') as f:
+with open('top_150.txt', 'r') as f:
     lines= f.readlines()
     for line in lines:
         column1, column2 = line.replace(" ", "").strip().split(",")
